@@ -120,5 +120,6 @@ all icons and image will be not showing any problem.
 If getting problem with namespace then make code folder as root 
 ![alt text](phpStormNamespace.png)
 
-
+Enable the plugin for this project and show the project directory
+![img.png](magento_plugin_config.png)
 
