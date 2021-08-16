@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+<!--    <type name="Magento\Framework\Console\CommandList"></type>-->
+<!--    <preference for="Workstation\Demoapi\Api\ProductRepositoryInterface"-->
+<!--                type="Workstation\Demoapi\Api\Data\ProductInterface" />-->
+
+    <preference for="Workstation\Demoapi\Api\Data\ItemInterface" type="Workstation\Demoapi\Model\Item" />
+    <preference for="Workstation\Demoapi\Api\ItemRepositoryInterface" type="Workstation\Demoapi\Model\ItemRepository" />
+</config>
+
+

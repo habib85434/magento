@@ -102,6 +102,9 @@ Run all following commands:
     
     Config web services
     php bin/magento cache:clean config_webservice
+    
+    For maping xml link with phpStorm
+    php bin/magento dev:urn-catalog:generate .idea/misc.xml
 
 ```
 
