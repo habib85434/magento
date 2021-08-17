@@ -44,3 +44,5 @@ Did you mean one of these?
 [2021-08-16 04:54:39] main.INFO: Broken reference: the 'paypal.partner.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
 [2021-08-16 04:54:39] main.INFO: Broken reference: the 'bml.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
 [2021-08-16 04:54:39] main.INFO: Broken reference: the 'yotpo_bottomline' tries to reorder itself towards 'product.info.addto', but their parents are different: 'product.info.main' and '' respectively. [] []
+[2021-08-16 10:45:30] main.INFO: Broken reference: the 'yotpo_bottomline' element cannot be added as child to 'product.info.main', because the latter doesn't exist [] []
+[2021-08-16 10:45:30] main.INFO: Broken reference: the 'yotpo_bottomline' tries to reorder itself towards 'product.info.addto', but their parents are different: 'product.info.main' and '' respectively. [] []
