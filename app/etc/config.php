@@ -316,7 +316,6 @@ return [
         'Vertex_AddressValidation' => 1,
         'Workstation_Demoapi' => 1,
         'Workstation_Demopage' => 1,
-        'Workstation_Items' => 1,
         'Workstation_SampleModule' => 1,
         'Yotpo_Yotpo' => 1
     ]

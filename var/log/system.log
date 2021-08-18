@@ -26,3 +26,46 @@
 #10 D:\xampp\htdocs\learning\magento\vendor\symfony\console\Application.php(149): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
 #11 D:\xampp\htdocs\learning\magento\bin\magento(23): Symfony\Component\Console\Application->run()
 #12 {main} [] []
+[2021-08-18 14:45:54] main.ERROR: There are no commands defined in the "corn" namespace.
+#0 D:\xampp\htdocs\learning\magento\vendor\symfony\console\Application.php(657): Symfony\Component\Console\Application->findNamespace('corn')
+#1 D:\xampp\htdocs\learning\magento\vendor\symfony\console\Application.php(237): Symfony\Component\Console\Application->find('corn:run')
+#2 D:\xampp\htdocs\learning\magento\vendor\magento\framework\Console\Cli.php(115): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 D:\xampp\htdocs\learning\magento\vendor\symfony\console\Application.php(149): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 D:\xampp\htdocs\learning\magento\bin\magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2021-08-18 14:47:28] main.ERROR: There are no commands defined in the "corn" namespace.
+#0 D:\xampp\htdocs\learning\magento\vendor\symfony\console\Application.php(657): Symfony\Component\Console\Application->findNamespace('corn')
+#1 D:\xampp\htdocs\learning\magento\vendor\symfony\console\Application.php(237): Symfony\Component\Console\Application->find('corn:run')
+#2 D:\xampp\htdocs\learning\magento\vendor\magento\framework\Console\Cli.php(115): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 D:\xampp\htdocs\learning\magento\vendor\symfony\console\Application.php(149): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 D:\xampp\htdocs\learning\magento\bin\magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2021-08-18 14:52:25] main.ERROR: There are no commands defined in the "corn" namespace.
+#0 D:\xampp\htdocs\learning\magento\vendor\symfony\console\Application.php(657): Symfony\Component\Console\Application->findNamespace('corn')
+#1 D:\xampp\htdocs\learning\magento\vendor\symfony\console\Application.php(237): Symfony\Component\Console\Application->find('corn:run')
+#2 D:\xampp\htdocs\learning\magento\vendor\magento\framework\Console\Cli.php(115): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 D:\xampp\htdocs\learning\magento\vendor\symfony\console\Application.php(149): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 D:\xampp\htdocs\learning\magento\bin\magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2021-08-18 14:59:19] main.ERROR: There are no commands defined in the "corn" namespace.
+#0 D:\xampp\htdocs\learning\magento\vendor\symfony\console\Application.php(657): Symfony\Component\Console\Application->findNamespace('corn')
+#1 D:\xampp\htdocs\learning\magento\vendor\symfony\console\Application.php(237): Symfony\Component\Console\Application->find('corn:run')
+#2 D:\xampp\htdocs\learning\magento\vendor\magento\framework\Console\Cli.php(115): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 D:\xampp\htdocs\learning\magento\vendor\symfony\console\Application.php(149): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 D:\xampp\htdocs\learning\magento\bin\magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2021-08-18 14:59:46] main.ERROR: There are no commands defined in the "corn" namespace.
+#0 D:\xampp\htdocs\learning\magento\vendor\symfony\console\Application.php(657): Symfony\Component\Console\Application->findNamespace('corn')
+#1 D:\xampp\htdocs\learning\magento\vendor\symfony\console\Application.php(237): Symfony\Component\Console\Application->find('corn:run')
+#2 D:\xampp\htdocs\learning\magento\vendor\magento\framework\Console\Cli.php(115): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 D:\xampp\htdocs\learning\magento\vendor\symfony\console\Application.php(149): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 D:\xampp\htdocs\learning\magento\bin\magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2021-08-18 15:02:03] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 5000; Allocated memory size: 4000000 bytes; InnoDB buffer pool size: 16777216 bytes. [] []
+[2021-08-18 15:02:03] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 5000; Allocated memory size: 4000000 bytes; InnoDB buffer pool size: 16777216 bytes. [] []
+[2021-08-18 15:02:03] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 5000; Allocated memory size: 4000000 bytes; InnoDB buffer pool size: 16777216 bytes. [] []
+[2021-08-18 15:02:10] main.INFO: Consumer "async.operations.all" skipped as required connection "amqp" is not configured. Unknown connection name amqp [] []
+[2021-08-18 15:03:48] main.INFO: Consumer "async.operations.all" skipped as required connection "amqp" is not configured. Unknown connection name amqp [] []
+[2021-08-18 15:04:11] main.INFO: Consumer "async.operations.all" skipped as required connection "amqp" is not configured. Unknown connection name amqp [] []
+[2021-08-18 15:05:14] main.INFO: Broken reference: the 'yotpo_bottomline' element cannot be added as child to 'product.info.main', because the latter doesn't exist [] []
+[2021-08-18 15:05:14] main.INFO: Broken reference: the 'yotpo_bottomline' tries to reorder itself towards 'product.info.addto', but their parents are different: 'product.info.main' and '' respectively. [] []
