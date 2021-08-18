@@ -117,12 +117,15 @@ all icons and image will be not showing any problem.
 
 ### PhpStorm
 
-![alt text](phpStormMagentoPlagin.png)
-![alt text](phpStormMagentoPlagin%202.png)
+![alt text](./docs/phpStormMagentoPlagin.png)
 <br />
-If getting problem with namespace then make code folder as root 
-![alt text](phpStormNamespace.png)
-
+![alt text](./docs/phpStormMagentoPlagin%202.png)
+<br />
+If getting problem with namespace then make code folder as root
+<br />
+![alt text](./docs/phpStormNamespace.png)
+<br />
 Enable the plugin for this project and show the project directory
-![img.png](magento_plugin_config.png)
+<br />
+![img.png](./docs/magento_plugin_config.png)
 

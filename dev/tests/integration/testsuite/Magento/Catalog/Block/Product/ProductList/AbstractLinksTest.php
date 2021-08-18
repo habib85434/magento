@@ -223,7 +223,7 @@ abstract class AbstractLinksTest extends TestCase
     protected function prepareBlock(): void
     {
         $this->block->setLayout($this->layout);
-        $this->block->setTemplate('Magento_Catalog::product/list/items.phtml');
+        $this->block->setTemplate('Magento_Catalog::product/list/items_page.phtml');
         $this->block->setType($this->linkType);
     }
 
