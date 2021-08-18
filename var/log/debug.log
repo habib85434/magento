@@ -1,0 +1,29 @@
+[2021-08-18 06:54:16] main.INFO: Broken reference: the 'yotpo_bottomline' element cannot be added as child to 'product.info.main', because the latter doesn't exist [] []
+[2021-08-18 06:54:16] main.INFO: Broken reference: the 'yotpo_bottomline' tries to reorder itself towards 'product.info.addto', but their parents are different: 'product.info.main' and '' respectively. [] []
+[2021-08-18 09:47:09] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["FPC"],"mode":"matchingTag"}} []
+[2021-08-18 09:52:01] main.ERROR: Not enough arguments (missing: "name").
+#0 D:\xampp\htdocs\learning\magento\vendor\symfony\console\Command\Command.php(250): Symfony\Component\Console\Input\Input->validate()
+#1 D:\xampp\htdocs\learning\magento\vendor\magento\framework\Interception\Interceptor.php(58): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 D:\xampp\htdocs\learning\magento\vendor\magento\framework\Interception\Interceptor.php(138): Workstation\SampleModule\Console\Command\AddItem\Interceptor->___callParent('run', Array)
+#3 D:\xampp\htdocs\learning\magento\vendor\magento\framework\Interception\Interceptor.php(153): Workstation\SampleModule\Console\Command\AddItem\Interceptor->Magento\Framework\Interception\{closure}(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 D:\xampp\htdocs\learning\magento\generated\code\Workstation\SampleModule\Console\Command\AddItem\Interceptor.php(77): Workstation\SampleModule\Console\Command\AddItem\Interceptor->___callPlugins('run', Array, Array)
+#5 D:\xampp\htdocs\learning\magento\vendor\symfony\console\Application.php(1009): Workstation\SampleModule\Console\Command\AddItem\Interceptor->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 D:\xampp\htdocs\learning\magento\vendor\symfony\console\Application.php(273): Symfony\Component\Console\Application->doRunCommand(Object(Workstation\SampleModule\Console\Command\AddItem\Interceptor), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 D:\xampp\htdocs\learning\magento\vendor\magento\framework\Console\Cli.php(115): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 D:\xampp\htdocs\learning\magento\vendor\symfony\console\Application.php(149): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 D:\xampp\htdocs\learning\magento\bin\magento(23): Symfony\Component\Console\Application->run()
+#10 {main} [] []
+[2021-08-18 09:58:14] main.ERROR: Unique constraint violation found
+#0 D:\xampp\htdocs\learning\magento\vendor\magento\framework\Model\AbstractModel.php(655): Magento\Framework\Model\ResourceModel\Db\AbstractDb->save(Object(Workstation\SampleModule\Model\Item))
+#1 D:\xampp\htdocs\learning\magento\app\code\Workstation\SampleModule\Console\Command\AddItem.php(47): Magento\Framework\Model\AbstractModel->save()
+#2 D:\xampp\htdocs\learning\magento\vendor\symfony\console\Command\Command.php(255): Workstation\SampleModule\Console\Command\AddItem->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 D:\xampp\htdocs\learning\magento\vendor\magento\framework\Interception\Interceptor.php(58): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 D:\xampp\htdocs\learning\magento\vendor\magento\framework\Interception\Interceptor.php(138): Workstation\SampleModule\Console\Command\AddItem\Interceptor->___callParent('run', Array)
+#5 D:\xampp\htdocs\learning\magento\vendor\magento\framework\Interception\Interceptor.php(153): Workstation\SampleModule\Console\Command\AddItem\Interceptor->Magento\Framework\Interception\{closure}(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 D:\xampp\htdocs\learning\magento\generated\code\Workstation\SampleModule\Console\Command\AddItem\Interceptor.php(77): Workstation\SampleModule\Console\Command\AddItem\Interceptor->___callPlugins('run', Array, Array)
+#7 D:\xampp\htdocs\learning\magento\vendor\symfony\console\Application.php(1009): Workstation\SampleModule\Console\Command\AddItem\Interceptor->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 D:\xampp\htdocs\learning\magento\vendor\symfony\console\Application.php(273): Symfony\Component\Console\Application->doRunCommand(Object(Workstation\SampleModule\Console\Command\AddItem\Interceptor), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 D:\xampp\htdocs\learning\magento\vendor\magento\framework\Console\Cli.php(115): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 D:\xampp\htdocs\learning\magento\vendor\symfony\console\Application.php(149): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 D:\xampp\htdocs\learning\magento\bin\magento(23): Symfony\Component\Console\Application->run()
+#12 {main} [] []
