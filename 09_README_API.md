@@ -28,6 +28,6 @@ OUTPUT:
     {
         "name": "Scheduled item",
         "description": "Created at 1629299055"
-    }
+    } 
 ]
 ```
