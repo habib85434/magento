@@ -9,4 +9,11 @@
     </type>
     <preference type="Workstation\SampleModule\Model\Item" for="Workstation\SampleModule\Api\Data\ItemInterface"/>
     <preference type="Workstation\SampleModule\Model\ItemRepository" for="Workstation\SampleModule\Api\ItemRepositoryInterface"/>
+    <type name="Magento\Framework\View\Element\UiComponent\DataProvider\CollectionFactory">
+        <arguments>
+            <argument name="collections" xsi:type="array">
+                <item name="workstation_items_grid_data_source" xsi:type="string">Workstation\SampleModule\Model\ResourceModel\Item\Grid\Collection</item>
+            </argument>
+        </arguments>
+    </type>
 </config>
