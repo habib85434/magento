@@ -6,4 +6,13 @@
             <resource ref="anonymous"/>
         </resources>
     </route>
+
+    <route url="/V1/items" method="POST">
+        <service class="Workstation\SampleModule\Api\ItemTestRepositoryInterface" method="store"/>
+        <resources>
+            <resource ref="anonymous"/>
+        </resources>
+    </route>
+
+
 </routes>

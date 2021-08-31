@@ -40,7 +40,7 @@ class InstallSchema implements InstallSchemaInterface
         )->setComment(
             'Sample Items'
         );
-        $setup->getConnection()->createTable($table);
+
         $setup->endSetup();
 
     }

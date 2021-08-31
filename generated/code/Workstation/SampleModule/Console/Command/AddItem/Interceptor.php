@@ -8,10 +8,10 @@ class Interceptor extends \Workstation\SampleModule\Console\Command\AddItem impl
 {
     use \Magento\Framework\Interception\Interceptor;
 
-    public function __construct(\Workstation\SampleModule\Model\ItemFactory $itemFactory)
+    public function __construct(\Workstation\SampleModule\Model\ItemFactory $itemFactory, \Workstation\SampleModule\Model\ItemTestFactory $itemTestFactory)
     {
         $this->___init();
-        parent::__construct($itemFactory);
+        parent::__construct($itemFactory, $itemTestFactory);
     }
 
     /**

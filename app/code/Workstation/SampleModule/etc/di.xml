@@ -9,6 +9,7 @@
     </type>
     <preference type="Workstation\SampleModule\Model\Item" for="Workstation\SampleModule\Api\Data\ItemInterface"/>
     <preference type="Workstation\SampleModule\Model\ItemRepository" for="Workstation\SampleModule\Api\ItemRepositoryInterface"/>
+    <preference type="Workstation\SampleModule\Model\ItemTestRepository" for="Workstation\SampleModule\Api\ItemTestRepositoryInterface"/>
     <type name="Magento\Framework\View\Element\UiComponent\DataProvider\CollectionFactory">
         <arguments>
             <argument name="collections" xsi:type="array">

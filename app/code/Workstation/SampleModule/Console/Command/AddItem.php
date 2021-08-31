@@ -9,6 +9,7 @@ use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use \Workstation\SampleModule\Model\ItemFactory;
+use \Workstation\SampleModule\Model\ItemTestFactory;
 
 class AddItem extends Command
 {
@@ -16,10 +17,12 @@ class AddItem extends Command
     const INPUT_KEY_DESCRIPTION = 'description';
 
     private $itemFactory;
+    private $itemTestFactory;
 
-    public function __construct(ItemFactory $itemFactory)
+    public function __construct(ItemFactory $itemFactory, ItemTestFactory $itemTestFactory)
     {
         $this->itemFactory = $itemFactory;
+        $this->itemTestFactory = $itemTestFactory;
         parent::__construct();
     }
 
@@ -45,6 +48,7 @@ class AddItem extends Command
         $item->setDescription($input->getArgument(self::INPUT_KEY_DESCRIPTION));
         $item->setIsObjectNew(true);
         $item->save();
+
         return Cli::RETURN_SUCCESS;
     }
 }
